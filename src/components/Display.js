@@ -12,7 +12,7 @@ const Display = () => {
   return (
     
       
-        <h1 className="bg-gray-900 text-3xl">{location.message}</h1>
+        <h1 className="bg-gray-900 text-gray-300 text-center text-3xl">{location.message}</h1>
      
   )
 }

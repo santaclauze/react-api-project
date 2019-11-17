@@ -21,9 +21,9 @@ export const useFetchPosition = () => {
       .then(res => res.json())
       .then(json => {
         setLoading(false)
-        if (json.message) {
-          setLocation(json.message)
-          console.log(json.message)
+        if (json) {
+          setLocation(json)
+          console.log(json)
         } else {
           setLocation([])
         }
