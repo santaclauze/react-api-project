@@ -1,0 +1,27 @@
+1. find a fun api you want to work with (the simpler the better to begin with). Here are some funny ones  https://medium.com/@vicbergquist/18-fun-apis-for-your-next-project-8008841c7be9
+
+https://eonet.sci.gsfc.nasa.gov/docs/v2.1  The Earth Observatory Natural Event Tracker (EONET) 
+
+2. Check out https://github.com/facebook/create-react-app and use it to generate your mini app. I suggest you also use the checkout option to see what packages are used. (another good thing and it may take a bit of time but google every package and a bit about them)
+
+3. Once your project is up and running install the extra packages that you want to use
+
+4. start coding and do the following:
+
+4a. Fetch the data and console.log it
+4b. use the state (hooks if you want to go the extra mile or old state though I would advise new hooks, there is no reason to be studying something that is on the downhill) to store the data.
+4c. create some components to display the data
+4d. create a loader component to be displayed while the data is inexistant
+4e. set up jest and make a unit test (the component you created to display the data should take a prop or multiple, just mock the prop and validate that it works as expected)
+
+
+create-react-app packages ----------------------------------------
+
+    React, JSX, ES6, TypeScript and Flow syntax support.
+    Language extras beyond ES6 like the object spread operator.
+    Autoprefixed CSS, so you don’t need -webkit- or other prefixes.
+    A fast interactive unit test runner with built-in support for coverage reporting.
+    A live development server that warns about common mistakes.
+    A build script to bundle JS, CSS, and images for production, with hashes and sourcemaps.
+    An offline-first service worker and a web app manifest, meeting all the Progressive Web App criteria. (Note: Using the service worker is opt-in as of react-scripts@2.0.0 and higher)
+    Hassle-free updates for the above tools with a single dependency.
