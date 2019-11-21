@@ -36,8 +36,6 @@ const Display = () => {
       <h2 className="text-gray-300 text-center text-3xl">
         current longitude: {long}
       </h2>
-
-    
     </div>
   );
 };
